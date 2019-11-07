@@ -20,3 +20,32 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+button{
+    border-radius:50px;
+    background-color: darkblue;
+    color:white;
+    width:80px;
+    height:80px;
+    margin:10px;
+}
+.App{
+    display:flex;
+    flex-direction:column-reverse;
+}
+.number_container{
+    padding-right:40px;
+    padding-left:28px;
+}
+.number_button, .special_button{
+    margin-right:40px;
+}
+.operator_container{
+    display:flex;
+    flex-direction:column;
+    padding-left:420px;
+    position:absolute;
+}
+.specials_container{
+    padding-top:100px;
+    padding-left:28px;
+}
